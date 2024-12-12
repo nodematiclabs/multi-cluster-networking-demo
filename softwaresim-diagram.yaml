@@ -1,0 +1,1110 @@
+mouseWheel:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Bold
+      id: boldText
+      target: .e-elementcontent
+      iconCss: fa fa-bold
+    - text: Italicize
+      id: italicizeText
+      target: .e-elementcontent
+      iconCss: fa fa-italic
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1122
+  viewPortHeight: 703
+  horizontalOffset: 265
+  verticalOffset: 28
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 703
+nodes:
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="h-full w-full">
+                <div class="h-full w-full relative">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: visible; opacity: 1;">
+                    <rect x="0" y="0" width="100%" height="100%" rx="10" ry="10" fill="none" stroke="#2A2A2A" stroke-width="2" stroke-dasharray="4 4"></rect>
+                  </svg>
+                </div>
+                <div class="model-group bg-center bg-no-repeat bg-contain top-0 right-0 bottom-0 left-0 opacity-30 absolute" style="background-image: url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png)">
+                </div>
+              </div>
+    id: Branded Logical GroupkHGXx
+    width: 392
+    height: 256.99999999999994
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 523
+    offsetY: 424.5
+    annotations:
+      - id: ZaJcM
+        content: us-central1
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+      status: N/A
+      type: annotation
+      brand: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      size: sm
+      category: 6
+    zIndex: 1
+    inEdges:
+      - Dashed Straight Nondirectional ConnectorGhmiC
+      - Dashed Straight ConnectorWJsVV
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);"></div><div
+        class="c-text"><div class="c-title">Service</div><div
+        class="c-short-description">Managing network access to a set of Pods in
+        a Kubernetes cluster</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Kubernetes Serviceymgcl
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Service
+        shortDescription: Managing network access to a set of Pods in a Kubernetes cluster
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubernetes Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Service
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 491
+    offsetY: 367.5
+    zIndex: 2
+    inEdges:
+      - Orthogonal ConnectorKdg6E
+      - Dashed Straight ConnectorQlKGd
+    outEdges:
+      - Straight ConnectorgKt5u
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);"></div><div
+        class="c-text"><div class="c-title">Service</div><div
+        class="c-short-description">Managing network access to a set of Pods in
+        a Kubernetes cluster</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Kubernetes ServiceymgclOxF7p
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Service
+        shortDescription: Managing network access to a set of Pods in a Kubernetes cluster
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubernetes Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Service
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 971.5
+    offsetY: 367.5
+    zIndex: 3
+    inEdges:
+      - Orthogonal ConnectoriB8N0
+      - Dashed Straight ConnectorgvDAF
+    outEdges:
+      - Straight ConnectorhPRQQ
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="h-full w-full">
+                <div class="h-full w-full relative">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: visible; opacity: 1;">
+                    <rect x="0" y="0" width="100%" height="100%" rx="10" ry="10" fill="none" stroke="#2A2A2A" stroke-width="2" stroke-dasharray="4 4"></rect>
+                  </svg>
+                </div>
+                <div class="model-group bg-center bg-no-repeat bg-contain top-0 right-0 bottom-0 left-0 opacity-30 absolute" style="background-image: url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png)">
+                </div>
+              </div>
+    id: Branded Logical GroupkHGXxLAy2p
+    width: 377
+    height: 256.99999999999994
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 947.5
+    offsetY: 424.5
+    annotations:
+      - id: ZaJcM
+        content: us-east1
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+      status: N/A
+      type: annotation
+      brand: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      size: sm
+      category: 6
+    zIndex: 0
+    inEdges:
+      - Dashed Straight ConnectorM5dBu
+    outEdges:
+      - Dashed Straight Nondirectional ConnectorU4LDZ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_Black_87_qjhiok.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_hyojz5.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Load Balancing</div><div
+        class="c-short-description">Distributing network traffic across multiple
+        servers to ensure high availability and reliability of
+        applications</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud Load BalancingcobBT
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Load Balancing
+        shortDescription: Distributing network traffic across multiple servers to ensure
+          high availability and reliability of applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Cloud Load Balancing
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Load Balancing
+      editableName: Cloud Load Balancing
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Load Balancing
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_hyojz5.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing__044448_ujhkjo.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_Black_87_qjhiok.png
+      color: "#3871e0"
+      controlText: Cloud Load Balancing
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 710
+    offsetY: 203
+    zIndex: 4
+    outEdges:
+      - Orthogonal ConnectorKdg6E
+      - Orthogonal ConnectoriB8N0
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">Deployment</div><div
+        class="c-short-description">Automating the deployment, scaling, and
+        management of containerized applications</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Kubernetes DeploymentXgwVG
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Deployment
+        shortDescription: Automating the deployment, scaling, and management of
+          containerized applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubernetes Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Deployment
+      editableName: Deployment
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Deployment
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 558.5
+    offsetY: 489.5
+    zIndex: 7
+    inEdges:
+      - Straight ConnectorgKt5u
+    outEdges:
+      - Dashed Straight ConnectorgvDAF
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">Deployment</div><div
+        class="c-short-description">Automating the deployment, scaling, and
+        management of containerized applications</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Kubernetes DeploymentXgwVGJCB8t
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Deployment
+        shortDescription: Automating the deployment, scaling, and management of
+          containerized applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubernetes Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Deployment
+      editableName: Deployment
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Deployment
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 923.5
+    offsetY: 489.5
+    zIndex: 8
+    inEdges:
+      - Straight ConnectorhPRQQ
+    outEdges:
+      - Dashed Straight ConnectorQlKGd
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>GKE</div></div></div>'
+    id: Google Kubernetes EnginedR3OF
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: GKE
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 252.5
+    offsetY: 424.5
+    zIndex: 15
+    outEdges:
+      - Dashed Straight Nondirectional ConnectorGhmiC
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>GKE</div></div></div>'
+    id: Google Kubernetes EnginedR3OFMCIVv
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+        shortDescription: Enterprise clusters used for maximum multi-networking capabilities
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: GKE
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+      location: "[GCP] us-east1"
+      latitude: 33.19632
+      longitude: -80.01429
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 1211
+    offsetY: 424.5
+    zIndex: 17
+    inEdges:
+      - Dashed Straight Nondirectional ConnectorU4LDZ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2c62e2;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_Black_87_xnxpag.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_lamy9f.png);"></div><div
+        class="c-text"><div class="c-title">Kubectl-Based Installation</div><div
+        class="c-short-description">https://github.com/GoogleCloudPlatform/gke-networking-recipes/blob/main/gateway/gke-gateway-controller/multi-cluster-gateway/store.yaml</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: KubernetesUs9NA
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes
+        shortDescription: https://github.com/GoogleCloudPlatform/gke-networking-recipes/blob/main/gateway/gke-gateway-controller/multi-cluster-gateway/store.yaml
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubernetes
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes
+      editableName: Kubectl-Based Installation
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Scheduled Job Executor
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: trigger
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenJobs
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+        - name: Intrusion Detector
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: intrusion
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenIntrusions
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Scheduled Job Executor
+          AverageTimeBetweenJobs: 1
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+        - type: Generator
+          status: Idle
+          name: Intrusion Detector
+          AverageTimeBetweenIntrusions: 1
+      name: Kubernetes
+      category: 10
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_lamy9f.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_Black_nmc1j1.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_Black_87_xnxpag.png
+      color: "#2c62e2"
+      controlText: Kubernetes
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 724
+    offsetY: 638
+    zIndex: 19
+    outEdges:
+      - Dashed Straight ConnectorWJsVV
+      - Dashed Straight ConnectorM5dBu
+  - shape:
+      type: Path
+    id: TextxKS8u
+    width: 220.00000000000003
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: Mb2TE
+        content: Config Cluster (where we deploy multi-cluster resources)
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+      category: 6
+    offsetX: 434
+    offsetY: 578
+    zIndex: 22
+connectors:
+  - id: Orthogonal ConnectorKdg6E
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 710
+      y: 253
+    targetPoint:
+      x: 491
+      y: 317.5
+    sourceID: Google Cloud Load BalancingcobBT
+    targetID: Kubernetes Serviceymgcl
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Orthogonal ConnectoriB8N0
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 710
+      y: 253
+    targetPoint:
+      x: 971.5
+      y: 317.5
+    sourceID: Google Cloud Load BalancingcobBT
+    targetID: Kubernetes ServiceymgclOxF7p
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Straight ConnectorgKt5u
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 518.66
+      y: 417.5
+    targetPoint:
+      x: 530.84
+      y: 439.5
+    sourceID: Kubernetes Serviceymgcl
+    targetID: Kubernetes DeploymentXgwVG
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+  - id: Straight ConnectorhPRQQ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 951.83
+      y: 417.5
+    targetPoint:
+      x: 943.17
+      y: 439.5
+    sourceID: Kubernetes ServiceymgclOxF7p
+    targetID: Kubernetes DeploymentXgwVGJCB8t
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Dashed Straight ConnectorQlKGd
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 773.5
+      y: 447.19
+    targetPoint:
+      x: 641
+      y: 409.81
+    sourceID: Kubernetes DeploymentXgwVGJCB8t
+    targetID: Kubernetes Serviceymgcl
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Dashed Straight ConnectorgvDAF
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 708.5
+      y: 445.19
+    targetPoint:
+      x: 821.5
+      y: 411.81
+    sourceID: Kubernetes DeploymentXgwVG
+    targetID: Kubernetes ServiceymgclOxF7p
+    addInfo:
+      viewConnector: 0
+    zIndex: 14
+  - id: Dashed Straight Nondirectional ConnectorGhmiC
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 302.5
+      y: 424.5
+    targetPoint:
+      x: 327
+      y: 424.5
+    sourceID: Google Kubernetes EnginedR3OF
+    targetID: Branded Logical GroupkHGXx
+    addInfo:
+      viewConnector: 0
+    zIndex: 16
+  - id: Dashed Straight Nondirectional ConnectorU4LDZ
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 1136
+      y: 424.5
+    targetPoint:
+      x: 1161
+      y: 424.5
+    sourceID: Branded Logical GroupkHGXxLAy2p
+    targetID: Google Kubernetes EnginedR3OFMCIVv
+    addInfo:
+      viewConnector: 0
+    zIndex: 18
+  - id: Dashed Straight ConnectorWJsVV
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 676.93
+      y: 588
+    targetPoint:
+      x: 643.98
+      y: 553
+    sourceID: KubernetesUs9NA
+    targetID: Branded Logical GroupkHGXx
+    addInfo:
+      viewConnector: 0
+    zIndex: 20
+  - id: Dashed Straight ConnectorM5dBu
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 776.34
+      y: 588
+    targetPoint:
+      x: 812.98
+      y: 553
+    sourceID: KubernetesUs9NA
+    targetID: Branded Logical GroupkHGXxLAy2p
+    addInfo:
+      viewConnector: 0
+    zIndex: 21
+selectedItems:
+  width: 300
+  height: 100
+  offsetX: 710
+  offsetY: 203
